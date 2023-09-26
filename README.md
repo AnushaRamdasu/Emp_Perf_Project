@@ -1,11 +1,74 @@
-# <p align="center">EMPLOYEE PERFORMANCE SYSTEM</p>
+<br/>
+<p align="center">
+  <h1 align="center">EMPLOYEE PERFORMANCE SYSTEM</h1>
+
+
+<p align="center">
+    A Console-Based Employee Performance  System for to keep them engaged, content and productive.
+    <br/>
+    <br/>
+    <a href="https://github.com/DeepthiEttamsethi/Emp_Perf_Project"><strong>Explore the docs »</strong></a>
+    <br/>
+  </p>
+</p>
+
+## Table Of Contents
+
+- [About the Performance  System](#about-the-project)
+- [Features](#features)
+  - [User Authentication](#user-section)
+  - [Manager Section](#manager-section)
+    - [Add Employee Details
+](#employee-details)
+    - [Add Evaluation Details
+](#evaluation-details)
+    - [Update Evaluation Details
+](#updateevaluation-details)
+    - [Delete Employee
+](#deleteemployee-details)
+    - [Delete Evaluation Details
+](#delevaluation-details)
+   - [Employee Section
+](#employee-details)
+     - [Display Employee Performance
+](#dispay-empdetails)
+
+- [Getting the project](#project-details)
+  - [Prerequisites](#Prerequisites-section)
+    - [Java Development Kit (JDK)
+](#jdk-details)
+    - [MySQL Database
+](#mysql-details)
+    - [MySQL JDBC Driver
+](#driver-details)
+    
+- [Project Setup](#project-details)
+  - [Clone or Download](#clone-section)
+  - [Create the Database
+](#database-details)
+  - [Create Database Tables
+](#tables-queries)
+    - [Manager Login
+](#Manager-queries)
+    - [Employee Login
+](#Manager-queries)
+    - [Employee
+](#employee-queries)
+    - [Evaluation
+](#evaluation-queries)
+    - [Update Database Connection
+](#update-details)
+    - [ Compile and Run
+](#compileandrun-details)
+    - [Menu
+](#menu-details)
+
 
 ## [About Employee Performance ](https://github.com/markdown-it/markdown-it-sub) 
 
 The Employee Performance Management System is a console-based Java application that facilitates the tracking and management of employee performance evaluations within an organization. It allows administrators to add employee details, record evaluation data, update evaluation records, and view employee performance information.
 
-## [Features ](https://github.com/markdown-it/markdown-it-sub) 
-
+## Features
 
 ### User Authentication
 Users can log in using a username and password. The system validates the login credentials against a MySQL database.
@@ -83,7 +146,7 @@ Set up the necessary database tables using the provided SQL commands in the Java
      Gender VARCHAR(255) CHECK (Gender = 'Male' OR Gender = 'Female'),
      Hiredate DATETIME NOT NULL,
      Designation VARCHAR(255) NOT NULL,
-     Salary FLOAT NOT NULL,
+     Salary FLOAT NOT NULL,ad
      Mobileno bigint NOT NULL);
 
 
