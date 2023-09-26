@@ -56,11 +56,11 @@
 ](#employee-queries)
     - [Evaluation
 ](#evaluation-queries)
-    - [Update Database Connection
+  - [Update Database Connection
 ](#update-details)
-    - [ Compile and Run
+  - [ Compile and Run
 ](#compileandrun-details)
-    - [Menu
+  - [Menu
 ](#menu-details)
 
 
